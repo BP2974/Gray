@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 페이스북, 카카오톡 meta -->
+    <meta property="og:title" content="Gray" />
+    <meta property="og:url" content="http://bp2974.dothome.co.kr/" />
+    <meta property="og:image" content="http://bp2074.dothome.co.kr/images/site.png" />
+    <meta property="og:description" content="자바스크립트 중간평가" />
+    <!-- 트위터 meta -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Gray" />
+    <meta name="twitter:url" content="http://bp2974.dothome.co.kr/" />
+    <meta name="twitter:image" content="http://bp2974.dothome.co.kr/images/site.png" />
+    <meta name="twitter:description" content="자바스크립트 중간평가" />
+    <!-- 프로젝트 설명 meta -->
+    <meta name="description" content="자바스크립트 중간평가.">
+    <meta name='keywords' content='자바스크립트, js, 계원예대, 계원예술대학교, 디미디, 디지털미디어디자인' />
+    <!-- <meta name="format-detection" content="telephone=no"> -->
+    <!-- 파비콘 -->
+    <link rel="icon" href="./images/favicon_16.ico" sizes="16x16" />
+    <link rel="icon" href="./images/favicon_48.ico" sizes="48x48" />
+    <link rel="apple-touch-icon" href="./images/favicon_180.ico" sizes="180x180" />
+
+    <link rel='stylesheet' type='text/css' href='./css/reset.css' />
+    <link rel='stylesheet' type='text/css' href='./css/common.css' />
+    <link rel='stylesheet' type='text/css' href='./css/scrollTop.css' />
+    <link rel='stylesheet' type='text/css' href='./css/clock.css' />
+    <link rel='stylesheet' type='text/css' href='./css/cursor.css' />
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/myslick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/popup.css"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script type="text/javascript">jQuery.noConflict();</script> -->
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    
+    <script type="text/javascript" src="./js/common.js"></script>
+    <!-- <script type="text/javascript" src="./js/slick.js"></script> -->
+
+    <title>Gray</title>
+</head>
+
+<body id="wrap">
+    <header>
+        <nav class="inner">
+            <h1><a href="#"><span class="blind">사이트명</span></a></h1>
+            <ul id="gnb">
+                <li><a href="#">Menu1</a></li>
+                <li><a href="#">Menu2</a></li>
+                <li><a href="#">Menu3</a></li>
+                <li><a href="#">Menu4</a></li>
+            </ul>
+            <button id="menu" class="menu-trigger">
+                <span class="blind">메뉴보기</span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+   <aside id="popupWrap">
+        <div id="popup">
+            <h2>팝업</h2>
+            <div id="area">
+                세상에 같은 회색은 없다.
+            </div>
+            <button type="button" id="close">[닫기]</button>
+        </div>
+    </aside>
+
+    <section id="section1" class="inner">
+        <h2>시간</h2>
+        <p>동적인 시간정보를 화면에 보여줍니다.</p>
+        <article id="clockSection">
+            <h3 class="blind">아날로그 시계</h3>
+        </article>
+        <p>
+            <span id="text1"></span>
+            <span id="text2"></span>
+        </p>
+    </section>
+
+    <section id="section2" class="inner">
+        <h2>Slick</h2>
+        <p>Slick 플러그인과 반응형을 활용하여 이미지 슬라이드를 보여줍니다.</p>
+        <div>
+            <div class="slick-slider">
+              <div class="box"><img src="./images/01.png" alt="01"></div>
+              <div class="box"><img src="./images/02.png" alt="02"></div>
+              <div class="box"><img src="./images/03.png" alt="03"></div>
+              <div class="box"><img src="./images/04.png" alt="04"></div>
+              <div class="box"><img src="./images/05.png" alt="05"></div>
+              <div class="box"><img src="./images/06.png" alt="06"></div>
+            </div>
+      </div>
+    </section>
+
+    <section id="section3" class="inner">
+        <h2>다크모드</h2>
+        <p>버튼요소를 사용하여 다크모드 디자인을 보여줍니다.</p>
+        <button type="button" id="button">Dark Mode</button>
+    </section>
+
+    <footer>
+        <div id="scrollTop"><span>맨 위로 가기</span></div>
+        <h2 class="blind">사이트로고</h2>
+        <address class="inner">
+            <p>
+                백민경<br />
+                서울특별시 구로구<br />
+                H.P <a href="tel:010-4572-4658">010-4572-4658</a><br />
+                Mail. <a href="mailto:day6@kakao.com">day6@kakao.com</a>
+            </p>
+            <p>Copyright ⓒ 2022 백민경 All rights reserved.</p>
+            <ul id="foot_snsSet">
+                <li><a href="#" target="_blank"><span class="blind">유튜브</span></a></li>
+                <li><a href="#" target="_blank"><span class="blind">블로그</span></a></li>
+                <li><a href="#" target="_blank"><span class="blind">페이스북</span></a></li>
+                <li><a href="#" target="_blank"><span class="blind">트위터</span></a></li>
+            </ul>
+        </address>
+    </footer>
+
+    <aside>
+        <div class="cursor"></div>
+        <div class="cursor_follower"></div>
+    </aside>
+
+</body>
+
+</html>

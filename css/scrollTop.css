@@ -1,0 +1,14 @@
+#scrollTop{
+    height: 60px;
+    font-size: 30px;
+    background-color: darkgray;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#scrollTop:hover{
+    background-color: gray;
+}

@@ -1,0 +1,26 @@
+#popupWrap{
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 500px;
+    background-color: gray;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    border-radius: 15px;
+}
+.popupclose{
+    display: none;
+}
+#area{
+    color: black;
+    background-color: white;
+    padding: 40px;
+    margin: 15px;
+    border-radius: 10px;
+}
+#close{
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}

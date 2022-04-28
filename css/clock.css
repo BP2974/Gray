@@ -1,0 +1,72 @@
+#text1{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+#text2{
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+#clock{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    margin : 50px auto;
+    background-color: aliceblue;
+    background-image: url("../images/clock.png");
+    background-size: cover;
+    z-index: -1;
+}
+#clock #hour{
+    border: 2px solid black;
+    border-radius: 6px 6px 0 0;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    width: 0;
+    height: 20px;
+    z-index: 1;
+    transform-origin: 2px 25px;
+    background-color: black;
+}
+#clock #min{
+    border: 2px solid gray;
+    border-radius: 6px 6px 0 0;
+    background-color: gray;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    width: 0;
+    height: 40px;
+    z-index: 2;
+    transform-origin: 2px 45px;
+}
+#clock #sec{
+    border: 2px solid lightgray;
+    border-radius: 6px 6px 0 0;
+    background-color: lightgray;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    width: 0;
+    height: 60px;
+    z-index: 3;
+    transform-origin: 2px 65px;
+}
+#clock #point{
+    border: solid 1px black;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    border-radius: 6px;
+    background-color: aliceblue;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    transform: translate(-30%, -30%);
+}
